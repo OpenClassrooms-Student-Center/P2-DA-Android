@@ -32,6 +32,7 @@ public class FakeApiService implements ApiService {
      */
     @Override
     public void deleteUser(User user) {
+        users.remove(user);
         // TODO: A modifier
     }
 }
