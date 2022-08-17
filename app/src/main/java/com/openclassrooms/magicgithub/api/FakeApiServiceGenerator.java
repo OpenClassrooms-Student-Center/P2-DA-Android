@@ -37,6 +37,10 @@ public abstract class FakeApiServiceGenerator {
             new User("020", "Rémi", "https://api.adorable.io/AVATARS/512/20.png")
     );
 
+    static List<User> generateUsersRandom() {
+        return new ArrayList<>(FAKE_USERS_RANDOM);
+    }
+
     public static List<User> FAKE_USERS_RANDOM = Arrays.asList(
             new User("021", "Lea", "https://api.adorable.io/AVATARS/512/21.png"),
             new User("022", "Geoffrey", "https://api.adorable.io/AVATARS/512/22.png"),
@@ -44,4 +48,5 @@ public abstract class FakeApiServiceGenerator {
             new User("024", "André", "https://api.adorable.io/AVATARS/512/24.png"),
             new User("025", "Leopold", "https://api.adorable.io/AVATARS/512/25.png")
     );
+
 }
