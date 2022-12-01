@@ -3,6 +3,7 @@ package com.openclassrooms.magicgithub.api;
 import com.openclassrooms.magicgithub.model.User;
 import java.util.List;
 import java.util.ListIterator;
+
 import static com.openclassrooms.magicgithub.api.FakeApiServiceGenerator.FAKE_USERS;
 import static com.openclassrooms.magicgithub.api.FakeApiServiceGenerator.FAKE_USERS_RANDOM;
 import static com.openclassrooms.magicgithub.api.FakeApiServiceGenerator.generateUsers;
