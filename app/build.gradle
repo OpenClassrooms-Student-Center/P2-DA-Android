@@ -23,6 +23,7 @@ android {
     testOptions {
         animationsDisabled = true
     }
+    namespace 'com.openclassrooms.magicgithub'
 }
 
 dependencies {
